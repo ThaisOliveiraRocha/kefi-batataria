@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { FC } from 'react';
+import Home from './pages/Home';
 
-function App() {
-  return (
-    <div>
-      <h1>Kefi batataria</h1>
-    </div>
-  );
-}
+const App: FC = () => (
+  <div>
+    <h1>Kefi batataria</h1>
+    <Home />
+  </div>
+);
 
 export default App;

@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../../templates/Footer';
 // import { Test } from './Home.styles';
 
 const Home = () => (
@@ -9,7 +10,7 @@ const Home = () => (
     <div>Embalagens</div>
     <div>Horta</div>
     <div>Galeria</div>
-    <div>Footer</div>
+    <Footer />
   </div>
 );
 

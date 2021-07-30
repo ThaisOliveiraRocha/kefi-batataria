@@ -1,5 +1,6 @@
 import React, { FC } from 'react';
 import Title from '../../atoms/Title';
+import ItemCardapio from '../../molecules/ItemCardapio';
 import * as Styles from './CardapioSession.styles';
 
 const CardapioSession: FC = () => {
@@ -24,9 +25,18 @@ const CardapioSession: FC = () => {
   return (
     <Styles.Container>
       <Title content="Cardápio" light />
-      {cardapio.map((item) => (
-        <div>{item.title}</div>
-      ))}
+      <Styles.Items>
+        {cardapio.map((item) => (
+          <div key={item.title}>
+            <ItemCardapio
+              title={item.title}
+              image={item.image}
+              price={item.price}
+              onClick={() => {}}
+            />
+          </div>
+        ))}
+      </Styles.Items>
     </Styles.Container>
   );
 };

@@ -10,3 +10,11 @@ export const Container = styled.div`
   width: 100%;
   background-color: #401b0d;
 `;
+
+export const Items = styled.div`
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+`;

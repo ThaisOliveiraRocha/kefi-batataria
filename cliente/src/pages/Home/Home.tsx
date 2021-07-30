@@ -1,12 +1,13 @@
-import React from 'react';
+import React, { FC } from 'react';
 import Footer from '../../templates/Footer';
+import CardapioSession from '../../templates/CardapioSession';
 // import { Test } from './Home.styles';
 
-const Home = () => (
+const Home: FC = () => (
   <div>
     <div>Menu</div>
     <div>Banner</div>
-    <div>Cardapio</div>
+    <CardapioSession />
     <div>Embalagens</div>
     <div>Horta</div>
     <div>Galeria</div>

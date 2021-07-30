@@ -6,9 +6,8 @@ export const Grid = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  position: fixed;
   bottom: 0;
-  width: 100%;
+  max-width: 100%;
   max-height: 256px;
 
   background-color: #dcb46a;

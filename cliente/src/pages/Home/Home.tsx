@@ -8,9 +8,9 @@ const Home: FC = () => (
     <div>Menu</div>
     <div>Banner</div>
     <CardapioSession />
-    <div>Embalagens</div>
-    <div>Horta</div>
-    <div>Galeria</div>
+    <h1 style={{ fontFamily: 'Antonio' }}>Embalagens</h1>
+    <h1 style={{ fontFamily: 'Highteous sans-serif' }}>Horta</h1>
+    <h1 style={{ fontFamily: 'Poppins' }}>Galeria</h1>
     <Footer />
   </div>
 );

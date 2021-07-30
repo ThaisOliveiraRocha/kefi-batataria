@@ -12,6 +12,7 @@ export const Grid = styled.div`
 
   background-color: #dcb46a;
   padding: 40px 32px 24px 32px;
+  font-family: Poppins;
 `;
 
 export const Container = styled.div`
@@ -44,7 +45,7 @@ export const Column = styled.div`
 
 export const Title = styled.h6`
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 18px;
   line-height: 27px;
   color: #1c1a1a;
@@ -69,6 +70,6 @@ export const Link = styled.a`
 `;
 
 export const Suport = styled(Description)`
-  font-weight: 500;
+  font-weight: 700;
   margin-top: 16px;
 `;

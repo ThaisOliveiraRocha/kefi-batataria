@@ -26,7 +26,11 @@ export const Logo = styled(Icon)`
   padding: 0 70px;
 `;
 
-export const Link = styled.a`
+export const Button = styled.button`
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
@@ -34,7 +38,5 @@ export const Link = styled.a`
   line-height: 24px;
   display: flex;
   align-items: center;
-  text-decoration: none;
-
   color: #f2f2f2;
 `;

@@ -8,14 +8,18 @@ import * as Styles from './Header.styles';
 
 const Header: FC = () => (
   <Styles.Container>
-    <Styles.Logo src="/images/logo.png" alt="logo" />
+    <Styles.Button type="button">
+      <Styles.Logo src="/images/logo.png" alt="logo" />
+    </Styles.Button>
     <Styles.Grid>
-      <Styles.Link>Cardápio</Styles.Link>
-      <Styles.Link>Embalagens</Styles.Link>
-      <Styles.Link>Horta</Styles.Link>
-      <Styles.Link>Sobre</Styles.Link>
-      <Styles.Link>Blog</Styles.Link>
-      <Styles.Icon src="/images/cart.png" alt="carrinho" />
+      <Styles.Button type="button">Cardápio</Styles.Button>
+      <Styles.Button type="button">Embalagens</Styles.Button>
+      <Styles.Button type="button">Horta</Styles.Button>
+      <Styles.Button type="button">Sobre</Styles.Button>
+      <Styles.Button type="button">Blog</Styles.Button>
+      <Styles.Button type="button">
+        <Styles.Icon src="/images/cart.png" alt="carrinho" />
+      </Styles.Button>
     </Styles.Grid>
   </Styles.Container>
 );

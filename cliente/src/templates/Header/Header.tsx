@@ -12,10 +12,38 @@ const Header: FC = () => (
       <Styles.Logo src="/images/logo.png" alt="logo" />
     </Styles.Button>
     <Styles.Grid>
-      <Styles.Button type="button">Cardápio</Styles.Button>
-      <Styles.Button type="button">Embalagens</Styles.Button>
-      <Styles.Button type="button">Horta</Styles.Button>
-      <Styles.Button type="button">Sobre</Styles.Button>
+      <Styles.Button
+        type="button"
+        onClick={() => {
+          window.location.href = '/#cardapio';
+        }}
+      >
+        Cardápio
+      </Styles.Button>
+      <Styles.Button
+        type="button"
+        onClick={() => {
+          window.location.href = '/#embalagens';
+        }}
+      >
+        Embalagens
+      </Styles.Button>
+      <Styles.Button
+        type="button"
+        onClick={() => {
+          window.location.href = '/#horta';
+        }}
+      >
+        Horta
+      </Styles.Button>
+      <Styles.Button
+        type="button"
+        onClick={() => {
+          window.location.href = '/sobre';
+        }}
+      >
+        Sobre
+      </Styles.Button>
       <Styles.Button type="button">Blog</Styles.Button>
       <Styles.Button type="button">
         <Styles.Icon src="/images/cart.png" alt="carrinho" />

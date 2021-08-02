@@ -23,7 +23,7 @@ const CardapioSession: FC = () => {
   ];
 
   return (
-    <Styles.Container>
+    <Styles.Container id="cardapio">
       <Title content="Cardápio" light />
       <Styles.Items>
         {cardapio.map((item) => (

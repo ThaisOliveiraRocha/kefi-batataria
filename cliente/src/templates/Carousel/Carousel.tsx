@@ -1,12 +1,12 @@
 import React, { FC } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Navigation } from 'swiper/core';
+import SwiperCore, { Navigation, Autoplay, Parallax } from 'swiper/core';
 import * as Styles from './Carousel.styles';
 
 import 'swiper/swiper.min.css';
 import 'swiper/components/navigation/navigation.min.css';
 
-SwiperCore.use([Navigation]);
+SwiperCore.use([Navigation, Autoplay, Parallax]);
 
 const Carousel: FC = () => {
   const content = [
@@ -34,9 +34,11 @@ const Carousel: FC = () => {
         navigation
         loop
         autoplay={{
-          delay: 2500,
+          delay: 3000,
           disableOnInteraction: false,
         }}
+        parallax
+        speed={800}
       >
         {content.map((item) => (
           <SwiperSlide>

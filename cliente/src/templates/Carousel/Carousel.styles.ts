@@ -35,6 +35,13 @@ export const Container = styled.div`
     height: 100%;
     object-fit: cover;
   }
+
+  .swiper-button-prev,
+  .swiper-container-rtl,
+  .swiper-button-next {
+    color: #fff;
+    margin: 0 42px;
+  }
 `;
 
 export const Banner = styled.div`

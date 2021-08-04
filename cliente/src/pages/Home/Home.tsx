@@ -3,6 +3,7 @@ import CardapioSession from '../../templates/CardapioSession';
 import Carousel from '../../templates/Carousel';
 import Embalagem from '../../templates/Embalagem';
 import Horta from '../../templates/Horta';
+import Gallery from '../../templates/Gallery';
 import * as Styles from './Home.styles';
 
 const Home: FC = () => (
@@ -11,6 +12,7 @@ const Home: FC = () => (
     <CardapioSession />
     <Embalagem />
     <Horta />
+    <Gallery />
   </Styles.Container>
 );
 

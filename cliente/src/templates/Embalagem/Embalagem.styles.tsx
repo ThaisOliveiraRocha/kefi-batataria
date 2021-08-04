@@ -30,6 +30,6 @@ export const StepsContainer = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 0 70px;
+  padding: 0 70px 48px;
   gap: 48px;
 `;

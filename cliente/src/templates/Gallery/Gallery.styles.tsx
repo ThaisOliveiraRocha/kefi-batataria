@@ -16,12 +16,12 @@ export const StepsContainer = styled.div`
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  grid-template-columns: repeat(4, 310px);
+  grid-template-columns: repeat(4, minmax(200px, 1fr));
   padding: 0 70px 42px;
   gap: 20px;
 `;
 
 export const Image = styled.img`
-  width: 310px;
-  height: 290px;
+  width: 100%;
+  height: auto;
 `;

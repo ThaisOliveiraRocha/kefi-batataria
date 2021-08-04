@@ -12,8 +12,8 @@ export const Container = styled.button`
 `;
 
 export const Image = styled.img`
-  width: 420px;
-  height: 550px;
+  width: 100%;
+  height: auto;
 `;
 
 export const Title = styled.span`

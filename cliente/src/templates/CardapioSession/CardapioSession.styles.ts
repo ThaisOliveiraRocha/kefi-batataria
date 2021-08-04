@@ -15,6 +15,7 @@ export const Items = styled.div`
   display: grid;
   align-items: center;
   justify-content: center;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, minmax(100px, 432px));
   gap: 42px;
+  padding: 0 70px;
 `;
